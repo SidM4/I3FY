@@ -1,0 +1,95 @@
+.exe_nav
+{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.exe_nav nav
+{
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    height: 3.5rem;
+    z-index: 10;
+}
+
+.exe_nav nav ul {
+    list-style: none;
+    width: inherit;
+    margin: 0;
+  }
+  .exe_nav ul li {
+    background: #01bafd;
+  }
+  .exe_nav ul li{
+    background: #01bafd;
+  }
+  .exe_nav ul li{
+    background: #01bafd;
+  }
+
+.exe_nav nav ul
+{
+    list-style: none;
+    width: inherit;
+    margin: 0;
+}
+
+.panel
+{
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.panel h1
+{
+    font-size: 50px;
+    font-size: 4rem;
+    color: black;
+    position: inline;
+    line-height: 100px;
+    padding-top: 100px ;
+    text-align: center;
+    margin: 0;   
+}
+
+.panel p
+{
+    font-size: 16px;
+    color: black;
+    position: inline;
+    width: 70%;
+    text-align: center;
+}
+
+
+/* Smooth CSS3 Scrolling */
+a[ id= "exe_div1" ]:target ~ #exe_main article.panel {
+  -webkit-transform: translateY( 0px);
+  transform: translateY( 0px );
+}
+a[ id= "exe_div2" ]:target ~ #exe_main article.panel {
+  -webkit-transform: translateY( -500px );
+  transform: translateY( -500px );
+}
+a[ id= "exe_div3" ]:target ~ #exe_main article.panel {
+  -webkit-transform: translateY( -1000px );
+  transform: translateY( -1000px );
+}
+a[ id= "exe_div4" ]:target ~ #exe_main article.panel {
+    -webkit-transform: translateY( -1500px );
+    transform: translateY( -1500px );
+}
+a[ id= "exe_div5" ]:target ~ #exe_main article.panel {
+    -webkit-transform: translateY( -2000px );
+    transform: translateY( -2000px );
+}
