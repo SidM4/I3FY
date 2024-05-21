@@ -8,7 +8,7 @@ I3FY - Interactive, Innovative Information For You!
 
 ## Installation
 Run the command git clone https://github.com/SidM4/I3FY.git
-Create a .env file and put the API key there
+Create a parent folder, run the index.html file. 
 
 ## License
 Copyright <2024> <Siddhanth Murthy>
